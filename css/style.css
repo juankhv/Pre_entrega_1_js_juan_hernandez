@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");
+
+  html {
+    font-size: 62.5%;
+    font-family: "Open Sans", sans-serif;
+  }
+
+body{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(8, 237, 27) 0%, rgb(0, 212, 255) 100%);
+    font-family: sans-serif;
+    color: white;
+
+}
+
+h1{
+    text-align:center;
+    font-size: 3rem;
+
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .formulario{
+    border: 1px solid white;
+    margin: 2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #uno{
+    
+    width: 60px;
+    height: 15px;
+    
+  }
+
+  #dos{
+    width: 60px;
+    height: 15px;
+    
+  }
+
+  #tres{
+    width: 60px;
+    height: 15px;
+    
+  }
+
+  #cuatro{
+    width: 60px;
+    height: 15px;
+    
+  }
+
+  #cotizadores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+
+
+  #valor{
+    font-size: 2rem;
+    width: 15%;
+  }
+
+  #cotizador{
+    margin-top: 1rem;
+  }
+
+ 
+  .btn-design, .btn-rounded {
+    width: 10rem;
+    background-color: #20c997;
+    color: white;
+    font-size: 2rem;
+    
+  }
+  .btn-design:hover, .btn-rounded:hover {
+    background-color: aqua;
+  }
+  
+  .btn-rounded {
+    border-radius: 2rem;
+  }
